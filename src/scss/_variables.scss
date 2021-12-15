@@ -1,0 +1,106 @@
+//
+// Variables definition
+//
+
+// Grid
+
+$grid-columns: 14;
+$grid-gutter-width: 10px;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1005px,
+);
+
+// Colours
+
+$primary: #0057a8;
+$white: #fff;
+$gray: #ededed;
+$gunmetal: #425156;
+$gray-100: #f2f2f2;
+$gray-200: #ededed;
+$gray-300: #b0b0b0;
+$navy: #15437b;
+$azure: #0094e6;
+$cobalt: #1c58a1;
+$ocean: #009ee1;
+$cerulean: #0085d0;
+
+// Fonts
+
+$font-family-sans-serif: "Arimo", sans-serif;
+$font-size-base: 0.88rem;
+$font-size-1: 1.35rem;
+$font-size-2: 2.3rem;
+$font-size-3: 1.65rem;
+$font-size-4: 0.95rem;
+$font-size-5: 0.84rem;
+$font-size-6: 0.75rem;
+$font-size-7: 0.7rem;
+$font-size-8: 0.6rem;
+
+$h1-font-size: $font-size-1;
+$h2-font-size: $font-size-2;
+$h3-font-size: $font-size-3;
+$h4-font-size: $font-size-4;
+$h5-font-size: $font-size-5;
+$h6-font-size: $font-size-6;
+
+// Text
+
+$line-height-base: 1.4;
+$headings-font-weight: 600;
+$paragraph-margin-bottom: 0;
+
+// Links
+
+$link-hover-decoration: none;
+
+// Borders
+
+$border-radius: 5px;
+
+// Shadows
+
+$shadow-1: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+$shadow-2: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
+
+// Gradients
+
+$gradient-1: linear-gradient(29deg, $navy 8%, $azure 92%);
+$gradient-2: linear-gradient(29deg, #138ab4 8%, #53c9fa 92%);
+$gradient-3: linear-gradient(to bottom, $gray, $white 10%, $white);
+$gradient-4: linear-gradient(to top, $gray-100, $white 80%);
+
+// Dropdowns
+
+$dropdown-min-width: 88%;
+$dropdown-padding-x: 0.2rem;
+$dropdown-padding-y: 0.2rem;
+$dropdown-spacer: 0;
+$dropdown-font-size: $font-size-7;
+$dropdown-color: $gunmetal;
+$dropdown-border-color: rgba(0, 0, 0, 0.1);
+$dropdown-border-radius: 0 0 $border-radius $border-radius;
+$dropdown-border-width: 1px;
+
+$dropdown-link-color: $gunmetal;
+$dropdown-link-hover-color: $cerulean;
+$dropdown-link-hover-bg: transparent;
+
+$dropdown-link-active-color: $cerulean;
+$dropdown-link-active-bg: transparent;
+
+$dropdown-item-padding-y: 0;
+$dropdown-item-padding-x: 0.25rem;
+
+// Navbar
+
+$navbar-brand-font-size: $h1-font-size;
